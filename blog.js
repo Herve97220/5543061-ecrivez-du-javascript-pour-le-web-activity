@@ -16,7 +16,7 @@ function getRequest(url) {
     request.send();
   });
 }
-
+/*comment*/
 async function getBlogPost() {
   const titlePromise = getRequest(api + '/generate-title');
   const loremPromise = getRequest(api + '/generate-lorem');
